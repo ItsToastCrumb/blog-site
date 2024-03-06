@@ -1,0 +1,28 @@
+/**/
+:root {
+  --background-light: azure;
+  --text-light: black;
+  --border-light: rgb(50, 50, 50);
+  --background-dark: rgb(23, 23, 80);
+  --text-dark: lightskyblue;
+  --border-dark: rgb(180, 180, 180);
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: auto;
+  border-bottom: var(--border-light);
+}
+
+.themeToggle {
+  height: auto;
+  width: auto;
+  margin: 10px;
+}
