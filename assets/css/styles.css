@@ -18,7 +18,11 @@ header {
   justify-content: space-between;
   height: 100px;
   width: auto;
-  border-bottom: var(--border-light);
+  border-bottom: 5px solid var(--border-light);
+}
+
+footer {
+  border-top: 5px solid var(--border-light);
 }
 
 .themeToggle {
