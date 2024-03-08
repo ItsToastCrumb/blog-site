@@ -2,27 +2,37 @@
 :root {
   --background-light: azure;
   --text-light: black;
-  --border-light: rgb(50, 50, 50);
   --background-dark: rgb(23, 23, 80);
   --text-dark: lightskyblue;
-  --border-dark: rgb(180, 180, 180);
+  --border: rgb(128, 128, 128);
 }
 
-body {
+.light {
   background-color: var(--background-light);
   color: var(--text-light);
+  height: 100vh;
+}
+
+.dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+  height: 100vh;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   height: 100px;
   width: auto;
-  border-bottom: 5px solid var(--border-light);
+  border-bottom: 5px solid var(--border);
 }
 
 footer {
-  border-top: 5px solid var(--border-light);
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  color: var(--border);
+  border-top: 5px solid var(--border);
 }
 
 .themeToggle {

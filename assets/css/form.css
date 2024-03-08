@@ -41,6 +41,10 @@ textarea {
   width: 400px;
 }
 
+.blogCircle {
+  color: black;
+}
+
 #username {
   max-width: 200px;
 }
