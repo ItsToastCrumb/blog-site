@@ -38,7 +38,7 @@ blogFormEl.addEventListener('submit', function(event) {
     console.log(blogArray);
     
     // //Store array into local storage using JSON
-    // localStorage.setItem(blogArray);
+    localStorage.setItem('blogArray', JSON.stringify(blogArray));
     
     // //Redirect to blog posts page with new post updated
     // window.location.href = "https://itstoastcrumb.github.io/blog-site/blog";
