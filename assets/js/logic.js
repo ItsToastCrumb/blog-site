@@ -1,7 +1,6 @@
 //VARIABLE DECLARATIONS
 const themeToggleEl = document.querySelector('#themeToggle');
 const bodyEl = document.querySelector('body');
-const headerEl = document.querySelector('header')
 
 //Load current theme setting to window
 let mode = 'dark';
