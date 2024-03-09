@@ -15,5 +15,4 @@ themeToggleEl.addEventListener('click', function(){
         mode = 'dark';
         bodyEl.setAttribute('class', 'dark')
     }
-    //Store current theme to local storage for future visits
 })

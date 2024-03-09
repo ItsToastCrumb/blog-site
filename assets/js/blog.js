@@ -7,3 +7,5 @@ backButtonEl.addEventListener('click', function(event) {
 
     window.location.href = "https://itstoastcrumb.github.io/blog-site/";
 });
+
+//Pull blog info from local storage and arrange in list
