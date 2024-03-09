@@ -44,3 +44,13 @@ blogFormEl.addEventListener('submit', function(event) {
     window.location.href = "https://itstoastcrumb.github.io/blog-site/blog";
 
 }})
+
+function init() {
+    const storedBlogs = JSON.parse(localStorage.getItem('blogArray'));
+
+    if (storedBlogs !== null) {
+        blogArray = storedBlogs;
+    }
+}
+
+init();
