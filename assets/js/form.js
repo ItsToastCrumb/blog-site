@@ -4,9 +4,8 @@ const blogFormEl = document.querySelector('#blogForm');
 const usernameEl = document.querySelector('#username');
 const titleEl = document.querySelector('#title');
 const blogPostEl = document.querySelector('#content');
-let inputs = document.querySelector('input');
 
-const blogArray = [];
+let blogArray = [];
 
 //Event listener to store information in local storage when user clicks the submit button
 blogFormEl.addEventListener('submit', function(event) {
@@ -30,12 +29,10 @@ blogFormEl.addEventListener('submit', function(event) {
         blog: blogInput
     }
 
-    console.log(blogPosts);
+    const storedBlogs = JSON.parse(localStorage.getItem('blogArray'));
 
     //Push object with blog info into array
     blogArray.push(blogPosts);
-
-    console.log(blogArray);
     
     // //Store array into local storage using JSON
     localStorage.setItem('blogArray', JSON.stringify(blogArray));
@@ -45,12 +42,12 @@ blogFormEl.addEventListener('submit', function(event) {
 
 }})
 
-function init() {
-    const storedBlogs = JSON.parse(localStorage.getItem('blogArray'));
+// function init() {
+//     const storedBlogs = JSON.parse(localStorage.getItem('blogArray'));
 
-    if (storedBlogs !== null) {
-        blogArray = storedBlogs;
-    }
-}
+//     if (storedBlogs !== null) {
+//         blogArray = storedBlogs;
+//     }
+// }
 
-init();
+// init();
