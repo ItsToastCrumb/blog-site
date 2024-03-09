@@ -13,7 +13,7 @@ blogFormEl.addEventListener('submit', function(event) {
     event.preventDefault();
 
     //Alert user if any fields are blank
-    if (inputs.value === ''){  
+    if (usernameEl.value === '' || titleEl.value === '' || blogPostEl.value === ''){  
         alert('Please fill in all fields in order to make the blog post.');
         return;
     } else {
@@ -40,7 +40,7 @@ blogFormEl.addEventListener('submit', function(event) {
     // //Store array into local storage using JSON
     localStorage.setItem('blogArray', JSON.stringify(blogArray));
     
-    // //Redirect to blog posts page with new post updated
-    // window.location.href = "https://itstoastcrumb.github.io/blog-site/blog";
+    //Redirect to blog posts page with new post updated
+    window.location.href = "https://itstoastcrumb.github.io/blog-site/blog";
 
 }})
