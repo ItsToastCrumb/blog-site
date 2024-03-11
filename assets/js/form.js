@@ -21,6 +21,7 @@ blogFormEl.addEventListener('submit', function(event) {
     let nameInput = usernameEl.value;
     let titleInput = titleEl.value;
     let blogInput = blogPostEl.value;
+    let blogArray = [];
     
     //Object to store blog info
     let blogPosts = {
@@ -48,6 +49,8 @@ function init() {
 
     if (storedBlogs !== null) {
         blogArray = storedBlogs;
+    } else {
+
     }
 }
 
