@@ -42,6 +42,7 @@ blogFormEl.addEventListener('submit', function(event) {
 
 }})
 
+//Initialize the page with local storage data
 function init() {
     const storedBlogs = JSON.parse(localStorage.getItem('blogArray'));
 

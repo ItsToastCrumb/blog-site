@@ -16,16 +16,19 @@ function renderBlog() {
     for (let i = 0; i < blogArray.length; i++) {
         const blogs = blogArray[i];
 
+        //Creating elements for blog posts
         const newPost = document.createElement('li');
         const blogContent = document.createElement('div');
         const blogHeader = document.createElement('div');
         const blogBody = document.createElement('div');
         const blogFooter = document.createElement('div');
 
-        blogHeader.textContent = blogArray[i].title;
-        blogBody.textContent = blogArray[i].blog;
-        blogFooter.textContent = `Written by: ${blogArray[i].username}.`;
+        //Update content of created elements
+        blogHeader.textContent = blogs.title;
+        blogBody.textContent = blogs.blog;
+        blogFooter.textContent = `Written by: ${blogs.username}.`;
         
+        //Append new elements to HTML
         blogContent.appendChild(blogHeader);
         blogContent.appendChild(blogBody);
         blogContent.appendChild(blogFooter);
@@ -34,6 +37,7 @@ function renderBlog() {
 
         blogListEl.appendChild(newPost);
 
+        //Style elements in blog list
         blogContent.setAttribute('style', 'border: 2px solid rgb(128, 128, 128); margin: 10px');
         blogHeader.setAttribute('style', 'border: 2px solid rgb(128, 128, 128); font-size: 48px; padding: 10px');
         blogBody.setAttribute('style', 'font-size: 32px; margin: 15px')
