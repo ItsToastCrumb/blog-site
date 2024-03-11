@@ -5,7 +5,7 @@ const usernameEl = document.querySelector('#username');
 const titleEl = document.querySelector('#title');
 const blogPostEl = document.querySelector('#content');
 
-let blogArray = [];
+// let blogArray = [];
 
 //Event listener to store information in local storage when user clicks the submit button
 blogFormEl.addEventListener('submit', function(event) {
@@ -42,12 +42,12 @@ blogFormEl.addEventListener('submit', function(event) {
 
 }})
 
-// function init() {
-//     const storedBlogs = JSON.parse(localStorage.getItem('blogArray'));
+function init() {
+    const storedBlogs = JSON.parse(localStorage.getItem('blogArray'));
 
-//     if (storedBlogs !== null) {
-//         blogArray = storedBlogs;
-//     }
-// }
+    if (storedBlogs !== null) {
+        blogArray = storedBlogs;
+    }
+}
 
-// init();
+init();

@@ -2,7 +2,7 @@
 const backButtonEl = document.querySelector('#backButton');
 const blogListEl = document.querySelector('#blogList');
 
-let blogArray = [];
+// let blogArray = [];
 
 //Back Button to return to blog entry form page
 backButtonEl.addEventListener('click', function(event) {
