@@ -30,6 +30,14 @@ Git Page: https://itstoastcrumb.github.io/blog-site/
 
 ## Functionality
 
+The form allows you to write a blog post that will be saved and displayed in the list of blogs. All inputs and text areas must have content in order to save the blog.
+
+There is a link to my portfolio in the footer for both pages.
+
+There is a theme toggle image in the upper right corner of the webpage that will allow the user to toggle between light and dark themes as they desire.
+
+The blog list page has a back button that will return the user to the form page to enter another blog post.
+
 ## License
 
 Please see LICENSE file in repository.
