@@ -32,8 +32,13 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 32px;
-  color: var(--border);
   border-top: 5px solid var(--border);
+}
+
+.portfolio {
+  margin: 20px;
+  text-decoration: none;
+  color: var(--border);
 }
 
 .themeToggle {

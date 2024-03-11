@@ -14,6 +14,12 @@ This is a screenshot of the page that harbors all the blog posts
     ![alt text](assets/images/screenshot.png)
     ```
 
+## Links
+
+Git Repo: https://github.com/ItsToastCrumb/blog-site
+
+Git Page: https://itstoastcrumb.github.io/blog-site/
+
 ## License
 
 Please see LICENSE file in repository.
