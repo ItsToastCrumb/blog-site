@@ -8,19 +8,19 @@ This blog site was created to test the functionality of a light and dark theme f
 
 This is a screenshot of the landing page with the form to store a blog post
 
-![dark theme version of the form page](assets/images/screenshot.png)
+![dark theme version of the form page](./assets/images/blog_form_dark.png)
 
 Light theme version of the form page
 
-![light theme version of the form page](assets/images/screenshot.png)
+![light theme version of the form page](./assets/images/blog_form_light.png)
 
 This is a screenshot of the page that harbors all the blog posts
 
-![dark theme version of the blog list](assets/images/screenshot.png)
+![dark theme version of the blog list](./assets/images/blog_list_dark.png)
 
 Light theme version of the blog list
 
-![light theme version of the blog list](assets/images/screenshot.png)
+![light theme version of the blog list](./assets/images/blog_list_light.png)
 
 ## Links
 
